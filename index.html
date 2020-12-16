@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucks</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div class="circulo"></div>
+        <header>
+            <a href="#" class="logo"><img src="images/logo_antarctica.jpg" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </header>
+        <main class="conteudo">
+            <div class="caixa-texto">
+                <h2>
+                    Antartica<br>
+                    de <span>Cerveja a gente entende.</span>
+                </h2>
+                <p>
+                    Antarctica surgiu como uma fábrica de gelo e passou a produzir cerveja um ano depois, em 1889. É o complemento perfeito para momentos de prazer e para descontrair em boa companhia.
+                </p>
+                <a href="#">Leia mais</a>
+            </div>
+            <div class="caixa-imagem">
+                <img src="images/ant1.png" alt="Cerveja Cristal" class="cerveja">
+            </div>
+
+            <ul class="miniaturas">
+                <li><img src="images/ant1.png" alt="Cerveja Cristal" onclick="TrocarImagem('images/ant1.png'); MudarCirculo('#FFC125')"></li>
+                <li><img src="images/ant2.png" alt="Cerveja Antartica Pilsem" onclick="TrocarImagem('images/ant2.png'); MudarCirculo('#4682B4')"></li>
+                <li><img src="images/ant3.png" alt="Cerveja Sub" onclick="TrocarImagem('images/ant3.png'); MudarCirculo('#87CEEB')"></li>
+            </ul>
+
+            <ul class="redes-sociais">
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+
+        </main>
+    </section>
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
